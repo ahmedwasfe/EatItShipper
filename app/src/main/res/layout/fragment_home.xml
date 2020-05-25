@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <io.supercharge.shimmerlayout.ShimmerLayout
+        android:id="@+id/shimmer_layout_shipping_order"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:shimmer_animation_duration="1200">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include layout="@layout/raw_place_holder"/>
+            <include layout="@layout/raw_place_holder"/>
+            <include layout="@layout/raw_place_holder"/>
+            <include layout="@layout/raw_place_holder"/>
+            <include layout="@layout/raw_place_holder"/>
+            <include layout="@layout/raw_place_holder"/>
+            <include layout="@layout/raw_place_holder"/>
+            <include layout="@layout/raw_place_holder"/>
+            <include layout="@layout/raw_place_holder"/>
+            <include layout="@layout/raw_place_holder"/>
+
+        </LinearLayout>
+
+    </io.supercharge.shimmerlayout.ShimmerLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_shipping_order"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+</RelativeLayout>

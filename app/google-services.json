@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "620121805905",
+    "firebase_url": "https://eat-it-f1493.firebaseio.com",
+    "project_id": "eat-it-f1493",
+    "storage_bucket": "eat-it-f1493.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620121805905:android:2982e669c7fb044a079470",
+        "android_client_info": {
+          "package_name": "ahmet.com.eatit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620121805905-4pojp38hprdn3e9mauqoi1d3i9mtu6br.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ahmet.com.eatit",
+            "certificate_hash": "4324ad0f12401652f530323085992937f7305dd2"
+          }
+        },
+        {
+          "client_id": "620121805905-1fhg9rb0bg3qcndhmgk7i0sppeinl6hj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNeJ3hZ8i1LJL_IzXWeUkWV0xPb2sSjfs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620121805905-1fhg9rb0bg3qcndhmgk7i0sppeinl6hj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620121805905:android:d90e1717473ca2aa079470",
+        "android_client_info": {
+          "package_name": "ahmet.com.eatitserver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620121805905-r04bvkr39snit1miitruj2cg6cghm6bi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ahmet.com.eatitserver",
+            "certificate_hash": "4324ad0f12401652f530323085992937f7305dd2"
+          }
+        },
+        {
+          "client_id": "620121805905-1fhg9rb0bg3qcndhmgk7i0sppeinl6hj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNeJ3hZ8i1LJL_IzXWeUkWV0xPb2sSjfs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620121805905-1fhg9rb0bg3qcndhmgk7i0sppeinl6hj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620121805905:android:6e62dc459dc1543b079470",
+        "android_client_info": {
+          "package_name": "ahmet.com.eatitshipper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620121805905-1fhg9rb0bg3qcndhmgk7i0sppeinl6hj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNeJ3hZ8i1LJL_IzXWeUkWV0xPb2sSjfs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620121805905-1fhg9rb0bg3qcndhmgk7i0sppeinl6hj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

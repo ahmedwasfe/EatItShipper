@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:padding="10dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="8dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/img_shipping_order_food"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_restaurant_menu"
+            android:layout_marginEnd="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_shipping_order_food_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Today at: 18:05:55 pm"
+            android:textStyle="italic"
+            android:textSize="16sp"
+            android:textColor="@color/colorGreen1"
+            android:padding="4dp"
+            android:layout_marginStart="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/img_shipping_order_food"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_shipping_order_food_number"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Order number: 123456789564646066"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            android:padding="4dp"
+            android:layout_marginStart="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/img_shipping_order_food"
+            app:layout_constraintTop_toBottomOf="@id/txt_shipping_order_food_date"/>
+
+        <TextView
+            android:id="@+id/txt_shipping_order_food_address"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Address: gaza"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            android:padding="4dp"
+            android:layout_marginStart="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/img_shipping_order_food"
+            app:layout_constraintTop_toBottomOf="@id/txt_shipping_order_food_number"/>
+
+        <TextView
+            android:id="@+id/txt_shipping_order_payment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Cash on Delivery"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            android:padding="4dp"
+            android:layout_marginStart="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/img_shipping_order_food"
+            app:layout_constraintTop_toBottomOf="@id/txt_shipping_order_food_address"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_ship_now"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ship_now"
+            android:layout_margin="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_shipping_order_payment"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
